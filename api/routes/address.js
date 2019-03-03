@@ -98,4 +98,13 @@ router.post('/addaddress',
         })
     });
 
+const convertDate = (date) => {
+    let dates = new Date(date);
+
+    const d = dates.getDate();
+    const m = dates.getMonth() + 1;
+    const y = dates.getFullYear();
+    const dateformat = y + '-' + m + '-' + d;
+    return dateformat;
+}
 module.exports = router;

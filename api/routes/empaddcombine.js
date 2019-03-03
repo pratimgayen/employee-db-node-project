@@ -16,7 +16,7 @@ const { Address } = require('../../models/employeeAddress');
 router.use(bodyParser.json());
 
 // UPDATE //
-router.post('/update/employeedetails',
+router.put('/update/employeedetails',
     validate.validatecombine,
     (req, res, next) => {
         const errors = validationResult(req);
@@ -46,7 +46,7 @@ router.post('/update/employeedetails',
         })
     });
 
-router.post('/update/employeeaddress',
+router.put('/update/employeeaddress',
     validate.validatecombine,
     (req, res, next) => {
         const errors = validationResult(req);
