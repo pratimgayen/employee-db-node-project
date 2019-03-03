@@ -1,0 +1,29 @@
+{
+  "name": "employee-db-node-project",
+  "version": "1.0.0",
+  "description": "employee db API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratimgayen/employee-db-node-project.git"
+  },
+  "author": "Pratim Gayen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pratimgayen/employee-db-node-project/issues"
+  },
+  "homepage": "https://github.com/pratimgayen/employee-db-node-project#readme",
+  "dependencies": {
+    "async": "^2.6.2",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.16"
+  }
+}
